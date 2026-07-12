@@ -1,0 +1,5 @@
+print("Üdv, kérlek válaszolj a kérdésekre!")
+name=input("Hogy hívnak?\n")
+age=input("Add meg az életkorod!\n")
+print("Köszönöm "+ name +"\n")
+print(name +", "+age+" éves vagy")
