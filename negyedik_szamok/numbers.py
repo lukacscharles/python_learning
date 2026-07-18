@@ -12,7 +12,8 @@ d). 81/9
 
 2. feladat: 
 
-Tegyük fel, hogy munkaadód azt kéri, hogy írj az ügyfelei részére személyre szabott jókívánságokat születésnapjuk alkalmából. A neveknek és az életkoruknak hozz létre külön változókat, majd egy általad megfogalmazott jókívánsággal írasd ki az egész mondatokat a konzolban.
+Tegyük fel, hogy munkaadód azt kéri, hogy írj az ügyfelei részére személyre szabott jókívánságokat születésnapjuk alkalmából. A neveknek és az életkoruknak hozz létre külön változókat,
+ majd egy általad megfogalmazott jókívánsággal írasd ki az egész mondatokat a konzolban.
 
  András, 39 éves
  Judit, 42 éves
@@ -38,4 +39,15 @@ def my_f(an,bn,mop):
 		print("nem értem, tolmácsot szeretnék kérni!")
 
 my_f(an=a,bn=b,mop=math_op)
+
+#2. feladat dictionaryval
+
+customers = {
+    "András": 39,
+    "Judit": 42,
+    "Gery": 24
+}
+
+for name, age in customers.items():
+    print(f"Kedves {name}! Boldog {age}. születésnapot!")
 	
